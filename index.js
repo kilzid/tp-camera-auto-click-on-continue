@@ -26,7 +26,7 @@ const cancelIsUp = () => {
 
 const shouldClickOnContinue = () => {
   return $('#continue').is(":visible") || $('.network-tips').is(":visible");
-}
+};
 
 const isVideoIsPlaying = () => !$("#JSVideo").get(0).paused;
 
