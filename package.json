@@ -1,6 +1,6 @@
 {
   "name": "tp-camera-auto-click-on-continue",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "## how to use 1. minify the code (via https://www.minifier.org) 2. create a new bookmark on chrome and in the URL put the minify code 3. go to your camera page and the click on the bookmark",
   "main": "index.js",
   "scripts": {
