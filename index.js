@@ -47,7 +47,7 @@ function shouldClickOnContinue() {
     return true;
   };
   if ($('#refresh').is(":visible")) {
-    console.warn('kilzi: camera is offline. trying to refresh', new Date().toTimeString());
+    console.error('kilzi: camera is offline. trying to refresh', new Date().toTimeString());
     return true;
   };
   return $('#continue').is(":visible");
